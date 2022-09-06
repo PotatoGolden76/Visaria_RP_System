@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/visaria/static/css/main.bd2d2a5b.css",
+    "main.js": "/visaria/static/js/main.aa89d569.js",
+    "static/js/787.2006736b.chunk.js": "/visaria/static/js/787.2006736b.chunk.js",
+    "static/media/potato.png": "/visaria/static/media/potato.3a04ce8820cc86b03188.png",
+    "index.html": "/visaria/index.html",
+    "main.bd2d2a5b.css.map": "/visaria/static/css/main.bd2d2a5b.css.map",
+    "main.aa89d569.js.map": "/visaria/static/js/main.aa89d569.js.map",
+    "787.2006736b.chunk.js.map": "/visaria/static/js/787.2006736b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd2d2a5b.css",
+    "static/js/main.aa89d569.js"
+  ]
+}
