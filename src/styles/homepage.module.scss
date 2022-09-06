@@ -1,0 +1,77 @@
+@import "./_variables.scss";
+
+:root {
+    background-color: $home-background;
+}
+
+.homeContainer {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 10;
+}
+
+
+$transition-mode: 0.3s ease-in-out;
+.powerCard {
+    transition: all $transition-mode;
+
+    position: relative;
+    left: 0;
+    top: 0;
+
+    height: 100px;
+    width: 200px;
+
+    text-align: center;
+    font-weight: 700;
+    color: $home-background-light;
+    background-color: $home-background;
+
+    & .powerTitle {
+        position: relative;
+        top: 40%;
+        transform: translateY(-50%);
+        font-size: 2rem;
+    }
+
+    border-width: 3px;
+    border-color: $home-background-light;
+    border-radius: 5px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+
+        z-index: -1;
+
+        background-color: $home-background-light;
+        background-image: radial-gradient($home-background 10%, transparent 11%),
+            radial-gradient($home-light-up 10%, transparent 11%);
+        background-size: 20px 20px;
+        background-position: 0 0, 30px 30px;
+        background-repeat: repeat;
+
+        transition: all $transition-mode;
+    }
+
+    &:hover {
+        border-color: $home-light-up;
+        color: $home-light-up;
+        // transform: translate(-10px, -10px);
+        left: -15px;
+        top: -15px;
+
+        &::before {
+            left: 15px;
+            top: 15px;
+        }
+    }
+}
