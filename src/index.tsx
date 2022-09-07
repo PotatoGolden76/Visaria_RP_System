@@ -8,9 +8,10 @@ import {
   HashRouter
 } from 'react-router-dom';
 
-
-import Expenses from "./routes/expenses";
 import NotFound from './routes/notfound';
+import Character from './routes/character';
+import Classes from './routes/character/classes';
+import Races from './routes/character/races';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,8 +19,14 @@ const root = ReactDOM.createRoot(
 root.render(
   <HashRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="expenses" element={<NotFound />} />
+      <Route index element={<App />} />
+      <Route path="character" element={<Character />} />
+      <Route path="magic" element={<App />} />
+      <Route path="extra" element={<App />} />
+
+      <Route path="/character/classes" element={<Classes />} />
+      <Route path="/character/races" element={<Races />} />
+
       <Route path="*" element={<NotFound />} />
     </Routes>
   </HashRouter>
