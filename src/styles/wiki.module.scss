@@ -1,0 +1,14 @@
+@import "./variables";
+
+.container {
+    background-color: white;
+    min-height: 90vh;
+
+    
+    & .title {
+        font-size: 3rem;
+        text-align: center;
+        font-weight: 700;
+        text-decoration: underline;
+    }
+}

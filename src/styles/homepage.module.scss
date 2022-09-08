@@ -1,7 +1,7 @@
 @import "./_variables.scss";
 
 :root {
-    background-color: $home-background;
+    background-color: $home-background-light;
 }
 
 $transition-mode: 0.15s ease-in-out;
@@ -27,6 +27,8 @@ $transition-mode: 0.15s ease-in-out;
 
     &:hover {
         top: -30px;
+        color: $corn;
+        border-color: $corn;
     }
 }
 

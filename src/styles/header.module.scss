@@ -1,0 +1,21 @@
+@import "./variables";
+
+$transition-mode: 0.2s ease-in-out;
+
+.header {
+    transition: all $transition-mode;
+
+    background-color: $home-background;
+    height: 7.5vh;
+    color: $home-background-light;
+
+    & > .anchor {
+        transition: all $transition-mode;
+
+        font-size: 2rem;
+        font-weight: 700;
+        &:hover {
+            color: $home-light-up;
+        }
+    }
+}

@@ -1,0 +1,272 @@
+{
+    "name": "Warrior",
+    "description": "With a weapon in their hand and their resolve strengthened, warriors represent anything from a savage barbarian to a noble knight, these people have spent their lives training in the art of combat. With their experience and heavy weaponry, warriors bring hope to allies and dismay to enemies who are to face their steel. Being a barrier to their allies but also a spear against the enemy's defences, warriors bring their combat prowess to any party that has them.",
+    "stats": [
+        "Constitution",
+        "Fighting"
+    ],
+    "weapons": [
+        "Brawling",
+        "Light Blades"
+    ],
+    "archetypes": [
+        {
+            "name": "Barbarian",
+            "description": "Strength and might, that is what makes a barbarian hit harder than a rolling boulder. Trading protections for raw power, they are a frightening sight to their enemies. They work best in short combat scenarios, where they can overwhelm their enemy with their damage.",
+            "stats": [
+                "Strength",
+                "Willpower"
+            ],
+            "weapons": [
+                "Axes",
+                "Heavy Blades",
+                "1 more of choice"
+            ],
+            "features": [
+                {
+                    "name": "Power Strike",
+                    "level": "7",
+                    "description": "When you use the All-Out Attack Action, you deal a +3 bonus to damage instead of the base +1, but you get a -2 to def instead of the base -1.",
+                    "extras": []
+                },
+                {
+                    "name": "Heavy Hit",
+                    "level": "7",
+                    "description": "Twice per encounter, you may take a -2 on an attack roll to gain a damage bonus equal to your Constitution score",
+                    "extras": []
+                },
+                {
+                    "name": "Daring Charge",
+                    "level": "13",
+                    "description": "Whenever you make a Charge Action, you gain a +2 bonus on the attack instead of a +1 and you add your Might Focus to the damage if you hit.",
+                    "extras": []
+                },
+                {
+                    "name": "Chopping Block",
+                    "level": "13",
+                    "description": "Immediately after you kill a foe in combat, you can make another attack against a different foe in range as a free action. If no foe is in range, you may instead perform a free Move action to put you in range of a new target. If you kill your foe with the free attack, you do not get another free attack or move.",
+                    "extras": []
+                },
+                {
+                    "name": "Offense is the best Defense",
+                    "level": "",
+                    "description": "General archetype perk, passive, if you wear Light or Clothing (Or nothing, I don't judge), you get +2 to defense and speed.",
+                    "extras": []
+                }
+            ]
+        },
+        {
+            "name": "Fighter",
+            "description": "Combatants that have mastered more than one fighting style enter this category, these people make use of every weapon they can put their hands on, using their experience to quickly change their tactics in any situation. These people are also referred to as \"Weapon Masters\".",
+            "stats": [
+                "Accuracy",
+                "Dexterity"
+            ],
+            "weapons": [
+                "3 of choice"
+            ],
+            "features": [
+                {
+                    "name": "Quick Draw",
+                    "level": "7",
+                    "description": "Your training with multiple weapons has left you with some quick reflexes. Once per turn, you may switch your weapons as a free action.",
+                    "extras": []
+                },
+                {
+                    "name": "Veteran",
+                    "level": "7",
+                    "description": "Your experience with specific types of weapons had placed you one step above the enemies. You may also add your weapon focus bonus to the damage you deal with each attack.",
+                    "extras": []
+                },
+                {
+                    "name": "Quick Strike",
+                    "level": "13",
+                    "description": "You can make a Melee Attack vs. an adjacent opponent as a minor action. The attack roll and damage of the Quick Strike suffer a -2 penalty.",
+                    "extras": []
+                },
+                {
+                    "name": "Fight With Style",
+                    "level": "13",
+                    "description": "When using any Style, all your attacks gain a +1 bonus in addition to what the Style may give you.",
+                    "extras": []
+                },
+                {
+                    "name": "Weapons at Hand",
+                    "level": "",
+                    "description": "All penalties for using weapons from a Weapons Group you do not have is reduced to a -2 and you suffer no reduction in damage.",
+                    "extras": []
+                }
+            ]
+        },
+        {
+            "name": "Knight",
+            "description": "It is unknown whether the Presence of a knight is a stronger weapon than they wield in combat. Able to plan on the move, inspire it's forces and use it's fine training to overwhelm stronger foes, a Knight works best in a coordinated team.",
+            "stats": [
+                "Accuracy",
+                "Communication"
+            ],
+            "weapons": [
+                "Lances",
+                "2 more of choice"
+            ],
+            "features": [
+                {
+                    "name": "Precise Strike",
+                    "level": "7",
+                    "description": "When you use the Aim Action on a melee attack, you gain a bonus to damage as much as you do in attack.",
+                    "extras": []
+                },
+                {
+                    "name": "Challenge",
+                    "level": "7",
+                    "description": "Select one target to Challenge as a minor action. So long as you focus on them, you gain a +1 attack and damage bonus against that target. You can only have one selected target at a time.",
+                    "extras": []
+                },
+                {
+                    "name": "Expert Strike",
+                    "level": "13",
+                    "description": "When you make an attack, you can take up to a –3 penalty on your attack roll to receive a corresponding bonus to your damage roll.You must choose before you roll.",
+                    "extras": []
+                },
+                {
+                    "name": "Call to Arms",
+                    "level": "13",
+                    "description": "You gain access to the Call to Arms Combat stunt, (3-5 SP), when you use this stunt, you may command a willing creature to take action on your turn, for 3 stunts, they gain a minor action, from 5 stunts, they gain a major action. Their action does not generate SP.",
+                    "extras": []
+                },
+                {
+                    "name": "Teamwork",
+                    "level": "",
+                    "description": "When you use the Set Up Stunt on two allies instead of just one.",
+                    "extras": []
+                }
+            ]
+        }
+    ],
+    "features": [
+        {
+            "level": 1,
+            "talent": [
+                "Base"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 2,
+            "talent": [],
+            "feature": ""
+        },
+        {
+            "level": 3,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 4,
+            "talent": [],
+            "feature": ""
+        },
+        {
+            "level": 5,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 6,
+            "talent": [],
+            "feature": ""
+        },
+        {
+            "level": 7,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 8,
+            "talent": [],
+            "feature": ""
+        },
+        {
+            "level": 9,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 10,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 11,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 12,
+            "talent": [],
+            "feature": ""
+        },
+        {
+            "level": 13,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 14,
+            "talent": [],
+            "feature": ""
+        },
+        {
+            "level": 15,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 16,
+            "talent": [],
+            "feature": ""
+        },
+        {
+            "level": 17,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 18,
+            "talent": [],
+            "feature": ""
+        },
+        {
+            "level": 19,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        },
+        {
+            "level": 20,
+            "talent": [
+                "+1 Talent Point"
+            ],
+            "feature": ""
+        }
+    ]
+}
