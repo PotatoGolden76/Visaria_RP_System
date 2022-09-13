@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/visaria/static/css/main.63e3eb4d.css",
-    "main.js": "/visaria/static/js/main.cfb52c1a.js",
+    "main.css": "/visaria/static/css/main.4a529597.css",
+    "main.js": "/visaria/static/js/main.867fdef9.js",
     "static/js/787.2006736b.chunk.js": "/visaria/static/js/787.2006736b.chunk.js",
     "static/media/rpgawesome-webfont.svg?v=0.1.0": "/visaria/static/media/rpgawesome-webfont.4f724738b005f669850f.svg",
     "static/media/homeBg.jpg": "/visaria/static/media/homeBg.5f35dd86545dbfe6a74f.jpg",
@@ -10,12 +10,12 @@
     "static/media/rpgawesome-webfont.woff?v=0.1.0": "/visaria/static/media/rpgawesome-webfont.5ddfbfc57fa24b191636.woff",
     "static/media/rpgawesome-webfont.ttf?v=0.1.0": "/visaria/static/media/rpgawesome-webfont.3887a57418d58656fd5d.ttf",
     "index.html": "/visaria/index.html",
-    "main.63e3eb4d.css.map": "/visaria/static/css/main.63e3eb4d.css.map",
-    "main.cfb52c1a.js.map": "/visaria/static/js/main.cfb52c1a.js.map",
+    "main.4a529597.css.map": "/visaria/static/css/main.4a529597.css.map",
+    "main.867fdef9.js.map": "/visaria/static/js/main.867fdef9.js.map",
     "787.2006736b.chunk.js.map": "/visaria/static/js/787.2006736b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63e3eb4d.css",
-    "static/js/main.cfb52c1a.js"
+    "static/css/main.4a529597.css",
+    "static/js/main.867fdef9.js"
   ]
 }
