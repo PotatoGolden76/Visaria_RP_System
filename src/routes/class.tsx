@@ -1,6 +1,8 @@
 import classNames from "classnames";
 import Header from "../components/header";
-
+import { Accordion, AccordionTab } from 'primereact/accordion';
+import { DataTable } from 'primereact/datatable';
+import { Column } from 'primereact/column';
 import styles from "../styles/wiki.module.scss"
 
 interface ArchetypeFeature {
@@ -64,9 +66,29 @@ export default function Class(props: any) {
                             <h3 className={styles.description}><b>Stats: </b>{archetype.stats.map((e, i) => { return i == archetype.stats.length - 1 ? e : e + ", " })}</h3>
                             <h3 className={styles.description}><b>Weapons: </b>{archetype.weapons.map((e, i) => { return i == archetype.weapons.length - 1 ? e : e + ", " })}</h3>
 
+                            <Accordion multiple>
+                                <AccordionTab header="Header I">
+                                    Content I
+                                </AccordionTab>
+                                <AccordionTab header="Header II">
+                                    Content II
+                                </AccordionTab>
+                                <AccordionTab header="Header III">
+                                    Content III
+                                </AccordionTab>
+                            </Accordion>
                         </div>;
                     })
                 }
+
+                <h3 className={styles.description}><b>Class Features: </b></h3>
+                <DataTable className={classNames(styles.featureTable)} value={data.features} responsiveLayout="scroll">
+                    <Column className={styles.col} field="level" header="Level"></Column>
+                    <Column className={styles.col} field="talent" header="Talent"></Column>
+                    <Column className={styles.col} field="feature" header="Feature"></Column>
+                    
+                </DataTable>
+            
             </div>
         </>
     );

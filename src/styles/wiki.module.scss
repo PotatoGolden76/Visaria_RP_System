@@ -3,25 +3,25 @@
 .container {
     background-color: white;
     min-height: 90vh;
-    
-    & > * {
+
+    &>* {
         margin-bottom: 20px;
     }
-    
-    & > .title {
+
+    &>.title {
         font-size: 3rem;
         text-align: center;
         font-weight: 700;
         text-decoration: underline;
     }
 
-    & > .description {
+    &>.description {
         text-indent: 2rem;
         font-size: 1.5rem;
         text-align: justify;
     }
 
-    & > .section {
+    &>.section {
         width: 100%;
         padding: 10px;
 
@@ -29,14 +29,14 @@
         border-width: 1px;
         border-color: $home-background;
 
-        & > .title {
+        &>.title {
             font-size: 1.5rem;
             text-align: left;
             font-weight: 700;
             text-decoration: underline;
         }
-    
-        & > .description {
+
+        &>.description {
             text-indent: 1.5rem;
             font-size: 1.5rem;
             text-align: justify;
@@ -44,3 +44,11 @@
     }
 }
 
+.featureTable {
+    width: 100%;
+    text-align: center;
+    & table {
+        width: 100%;
+        margin: 0;
+    }
+}
